@@ -33,7 +33,7 @@ public class EventController {
         List<Event> events = eventService.getAllEvents();
         return ResponseEntity.ok(events);
     }
-
+//test
     /**
      * Get an event by ID.
      */
